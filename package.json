@@ -1,0 +1,17 @@
+{
+  "name": "test-broadcast",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "@socket.io/redis-streams-adapter": "^0.2.2",
+    "dotenv": "^17.2.3",
+    "ioredis": "^5.8.2",
+    "socket.io": "^4.8.1"
+  }
+}
